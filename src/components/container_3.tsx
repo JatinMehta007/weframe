@@ -8,7 +8,7 @@ export default function Container_3() {
           <img
             src="images/image1.jpg"
             alt=""
-            className="w-[340px] h-[500px] object-cover rounded-xl bg-cover bg-no-repeat "
+            className="w-[340px] brightness-50 h-[500px] object-cover rounded-xl bg-cover bg-no-repeat "
             />
           <div className="w-[302px] h-[107px]">
             <p className="left-[19px] absolute top-[308px]  text-white  font-semibold text-2xl">
@@ -23,21 +23,22 @@ export default function Container_3() {
               How 7 line code turned into $36 Billion Empire
               <div className="flex  gap-[10px]">
             <p className="text-base mt-[17px] font-extrabold ">BUSINESS · <span className="text-[#A0A3BD] text-sm font-semibold">20 Sep 2022</span> </p>
-            <button className="w-[108px] h-[40px] mt-1  bg-[#E4FFF8] rounded-md"><span className="font-semibold text-base flex justify-center items-center text-[#0DAD82]">Published</span></button>
+            <button className="w-[108px] hover:cursor-pointer h-[40px] mt-1  bg-[#E4FFF8] rounded-md"><span className="font-semibold text-base flex justify-center items-center text-[#0DAD82]">Published</span></button>
               </div>
 
-        <div className="mt-[10px]">
-        <button className="w-[232px]  h-[55px] left-[20px] rounded-xl bg-[#E8E9FF]"><span className="text-lg text-[#1C1442] font-semibold flex justify-center items-center">
-          View
-        </span>
-        </button>
+              <div className="mt-[10px] flex items-center gap-[10px] ">
+  <button className="w-[232px] hover:cursor-pointer h-[55px] rounded-xl bg-[#E8E9FF]">
+    <span className="text-lg text-[#1C1442] font-semibold flex justify-center items-center h-full">
+      View
+    </span>
+  </button>
 
-        <button className="w-[60px] ml-[10px]  h-[55px]  rounded-xl bg-[#E8E9FF]"><span className=" text-[#1C1442] font-semibold flex justify-center items-center text-4xl">
-          ···
-        </span>
-        </button>
-        
-        </div>
+  <button className="w-[60px] hover:cursor-pointer h-[55px] rounded-xl bg-[#E8E9FF] flex justify-center items-center">
+    <span className="text-[#1C1442] font-semibold text-4xl leading-none">
+      ···
+    </span>
+  </button>
+</div>
             </p>
           </div>
         </div>
@@ -48,7 +49,7 @@ export default function Container_3() {
           <img
             src="images/image2.jpg"
             alt=""
-            className="w-[340px] h-[500px] object-cover rounded-xl  bg-no-repeat "
+            className="w-[340px] brightness-50 h-[500px] object-cover rounded-xl  bg-no-repeat "
             />
           <div className="">
             <p className="w-[302px] h-[107px] left-[19px] absolute top-[308px]  text-white  font-semibold text-2xl">
@@ -63,18 +64,18 @@ export default function Container_3() {
               Chez pierre restaurant in Monte Carlo by Vuidafieri
               <div className="flex  gap-[10px]">
             <p className="text-base mt-[17px] font-extrabold ">BUSINESS · <span className="text-[#A0A3BD] text-sm font-semibold">20 Sep 2022</span> </p>
-            <button className="w-[108px] h-[40px] mt-1  bg-[#DAF1FB] rounded-md"><span className="font-semibold text-base flex justify-center items-center text-[#58A4FF]">Created</span></button>
+            <button className="w-[108px] hover:cursor-pointer h-[40px] mt-1  bg-[#DAF1FB] rounded-md"><span className="font-semibold text-base flex justify-center items-center text-[#58A4FF]">Created</span></button>
               </div>
 
 
         <div className="mt-[10px] flex items-center gap-[10px] ml-[20px]">
-  <button className="w-[232px] h-[55px] rounded-xl bg-[#E8E9FF]">
+  <button className="w-[232px] hover:cursor-pointer h-[55px] rounded-xl bg-[#E8E9FF]">
     <span className="text-lg text-[#1C1442] font-semibold flex justify-center items-center h-full">
       View
     </span>
   </button>
 
-  <button className="w-[60px] h-[55px] rounded-xl bg-[#E8E9FF] flex justify-center items-center">
+  <button className="w-[60px] hover:cursor-pointer h-[55px] rounded-xl bg-[#E8E9FF] flex justify-center items-center">
     <span className="text-[#1C1442] font-semibold text-4xl leading-none">
       ···
     </span>
@@ -85,12 +86,12 @@ export default function Container_3() {
         </div>
       </div>
 
-      <div className="w-[340px] h-[500px] rounded-xl relative    ">
+      <div className="w-[340px]  h-[500px] rounded-xl relative    ">
         <div className="">
           <img
             src="images/image3.jpg"
             alt=""
-            className="w-[340px] h-[500px] object-cover rounded-xl bg-cover bg-no-repeat "
+            className="w-[340px] brightness-50 h-[500px] object-cover rounded-xl bg-cover bg-no-repeat "
             />
           <div className="">
             <p className="w-[306px] h-[107px] left-[19px] absolute top-[308px]  text-white  font-semibold text-2xl">
@@ -105,18 +106,18 @@ export default function Container_3() {
             Teknion wins Gold at 2022 International Design Awards
               <div className="flex  gap-[10px]">
             <p className="text-base mt-[17px] font-extrabold ">BUSINESS · <span className="text-[#A0A3BD] text-sm font-semibold">20 Sep 2022</span> </p>
-            <button className="w-[108px] h-[40px] mt-1  bg-[#F4F4F4] rounded-md"><span className="font-semibold text-base flex justify-center items-center text-[#A0A3BD]">Draft</span></button>
+            <button className="w-[108px] hover:cursor-pointer h-[40px] mt-1  bg-[#F4F4F4] rounded-md"><span className="font-semibold text-base flex justify-center items-center text-[#A0A3BD]">Draft</span></button>
               </div>
 
 
         <div className="mt-[10px] flex items-center gap-[10px] ml-[20px]">
-  <button className="w-[232px] h-[55px] rounded-xl bg-[#E8E9FF]">
+  <button className="w-[232px] hover:cursor-pointer h-[55px] rounded-xl bg-[#E8E9FF]">
     <span className="text-lg text-[#1C1442] font-semibold flex justify-center items-center h-full">
       View
     </span>
   </button>
 
-  <button className="w-[60px] h-[55px] rounded-xl bg-[#E8E9FF] flex justify-center items-center">
+  <button className="w-[60px] hover:cursor-pointer h-[55px] rounded-xl bg-[#E8E9FF] flex justify-center items-center">
     <span className="text-[#1C1442] font-semibold text-4xl leading-none">
       ···
     </span>
@@ -132,7 +133,7 @@ export default function Container_3() {
           <img
             src="images/image4.jpg"
             alt=""
-            className="w-[340px] h-[500px] object-cover rounded-xl bg-cover bg-no-repeat "
+            className="w-[340px] brightness-50 h-[500px] object-cover rounded-xl bg-cover bg-no-repeat "
             />
           <div className="">
             <p className="w-[310px] h-[107px] left-[19px] absolute top-[308px]  text-white  font-semibold text-2xl">
@@ -148,18 +149,18 @@ export default function Container_3() {
             $36 Billion Empire
               <div className="flex  gap-[10px]">
             <p className="text-base mt-[17px] font-extrabold ">BUSINESS · <span className="text-[#A0A3BD] text-sm font-semibold">20 Sep 2022</span> </p>
-            <button className="w-[108px] h-[40px] mt-1  bg-[#E4FFF8] rounded-md"><span className="font-semibold text-base flex justify-center items-center text-[#0DAD82]">Published</span></button>
+            <button className="w-[108px] hover:cursor-pointer h-[40px] mt-1  bg-[#E4FFF8] rounded-md"><span className="font-semibold text-base flex justify-center items-center text-[#0DAD82]">Published</span></button>
               </div>
 
 
         <div className="mt-[10px] flex items-center gap-[10px] ml-[20px]">
-  <button className="w-[232px] h-[55px] rounded-xl bg-[#E8E9FF]">
+  <button className="w-[232px] hover:cursor-pointer h-[55px] rounded-xl bg-[#E8E9FF]">
     <span className="text-lg text-[#1C1442] font-semibold flex justify-center items-center h-full">
       View
     </span>
   </button>
 
-  <button className="w-[60px] h-[55px] rounded-xl bg-[#E8E9FF] flex justify-center items-center">
+  <button className="w-[60px] hover:cursor-pointer h-[55px] rounded-xl bg-[#E8E9FF] flex justify-center items-center">
     <span className="text-[#1C1442] font-semibold text-4xl leading-none">
       ···
     </span>
@@ -177,7 +178,7 @@ export default function Container_3() {
           <img
             src="images/image5.jpg"
             alt=""
-            className="w-[340px] h-[500px] object-cover rounded-xl bg-cover bg-no-repeat "
+            className="w-[340px] brightness-50 h-[500px] object-cover rounded-xl bg-cover bg-no-repeat "
             />
           <div className="">
             <p className="w-[302px] h-[107px] left-[19px] absolute top-[308px]  text-white  font-semibold text-2xl">
@@ -192,18 +193,18 @@ export default function Container_3() {
               How 7 line code turned into $36 Billion Empire
               <div className="flex  gap-[10px]">
             <p className="text-base mt-[17px] font-extrabold ">BUSINESS · <span className="text-[#A0A3BD] text-sm font-semibold">20 Sep 2022</span> </p>
-            <button className="w-[108px] h-[40px] mt-1  bg-[#E4FFF8] rounded-md"><span className="font-semibold text-base flex justify-center items-center text-[#0DAD82]">Published</span></button>
+            <button className="w-[108px] hover:cursor-pointer h-[40px] mt-1  bg-[#E4FFF8] rounded-md"><span className="font-semibold text-base flex justify-center items-center text-[#0DAD82]">Published</span></button>
               </div>
 
 
         <div className="mt-[10px] flex items-center gap-[10px] ml-[20px]">
-  <button className="w-[232px] h-[55px] rounded-xl bg-[#E8E9FF]">
+  <button className="w-[232px] hover:cursor-pointer h-[55px] rounded-xl bg-[#E8E9FF]">
     <span className="text-lg text-[#1C1442] font-semibold flex justify-center items-center h-full">
       View
     </span>
   </button>
 
-  <button className="w-[60px] h-[55px] rounded-xl bg-[#E8E9FF] flex justify-center items-center">
+  <button className="w-[60px] hover:cursor-pointer h-[55px] rounded-xl bg-[#E8E9FF] flex justify-center items-center">
     <span className="text-[#1C1442] font-semibold text-4xl leading-none">
       ···
     </span>
@@ -219,7 +220,7 @@ export default function Container_3() {
           <img
             src="images/image6.jpg"
             alt=""
-            className="w-[340px] h-[500px] object-cover rounded-xl  bg-no-repeat "
+            className="w-[340px] brightness-50 h-[500px] object-cover rounded-xl  bg-no-repeat "
             />
           <div className="">
             <p className="w-[302px] h-[107px] left-[19px] absolute top-[308px]  text-white  font-semibold text-2xl">
@@ -236,18 +237,18 @@ export default function Container_3() {
               <div className="flex  gap-[10px]">
             <p className="text-base mt-[17px] font-extrabold ">BUSINESS · <span className="text-[#A0A3BD] text-sm font-semibold">20 Sep 2022</span> </p>
 
-            <button className="w-[108px] h-[40px] mt-1  bg-[#E4FFF8] rounded-md"><span className="font-semibold text-base flex justify-center items-center text-[#0DAD82]">Published</span></button>
+            <button className="w-[108px] hover:cursor-pointer h-[40px] mt-1  bg-[#E4FFF8] rounded-md"><span className="font-semibold text-base flex justify-center items-center text-[#0DAD82]">Published</span></button>
               </div>
 
 
         <div className="mt-[10px] flex items-center gap-[10px] ml-[20px]">
-  <button className="w-[232px] h-[55px] rounded-xl bg-[#E8E9FF]">
+  <button className="w-[232px] hover:cursor-pointer h-[55px] rounded-xl bg-[#E8E9FF]">
     <span className="text-lg text-[#1C1442] font-semibold flex justify-center items-center h-full">
       View
     </span>
   </button>
 
-  <button className="w-[60px] h-[55px] rounded-xl bg-[#E8E9FF] flex justify-center items-center">
+  <button className="w-[60px] hover:cursor-pointer h-[55px] rounded-xl bg-[#E8E9FF] flex justify-center items-center">
     <span className="text-[#1C1442] font-semibold text-4xl leading-none">
       ···
     </span>
@@ -263,7 +264,7 @@ export default function Container_3() {
           <img
             src="images/image7.jpg"
             alt=""
-            className="w-[340px] h-[500px] object-cover rounded-xl bg-cover bg-no-repeat "
+            className="w-[340px] brightness-50 h-[500px] object-cover rounded-xl bg-cover bg-no-repeat "
             />
           <div className="">
             <p className="w-[306px] h-[107px] left-[19px] absolute top-[308px]  text-white  font-semibold text-2xl">
@@ -279,18 +280,18 @@ export default function Container_3() {
               <div className="flex  gap-[10px]">
             <p className="text-base mt-[17px] font-extrabold ">BUSINESS · <span className="text-[#A0A3BD] text-sm font-semibold">20 Sep 2022</span> </p>
 
-            <button className="w-[108px] h-[40px] mt-1  bg-[#E4FFF8] rounded-md"><span className="font-semibold text-base flex justify-center items-center text-[#0DAD82]">Published</span></button>
+            <button className="w-[108px] hover:cursor-pointer h-[40px] mt-1  bg-[#E4FFF8] rounded-md"><span className="font-semibold text-base flex justify-center items-center text-[#0DAD82]">Published</span></button>
               </div>
 
 
         <div className="mt-[10px] flex items-center gap-[10px] ml-[20px]">
-  <button className="w-[232px] h-[55px] rounded-xl bg-[#E8E9FF]">
+  <button className="w-[232px] hover:cursor-pointer h-[55px] rounded-xl bg-[#E8E9FF]">
     <span className="text-lg text-[#1C1442] font-semibold flex justify-center items-center h-full">
       View
     </span>
   </button>
 
-  <button className="w-[60px] h-[55px] rounded-xl bg-[#E8E9FF] flex justify-center items-center">
+  <button className="w-[60px] hover:cursor-pointer h-[55px] rounded-xl bg-[#E8E9FF] flex justify-center items-center">
     <span className="text-[#1C1442] font-semibold text-4xl leading-none">
       ···
     </span>
@@ -301,12 +302,12 @@ export default function Container_3() {
         </div>
       </div>
 
-      <div className="w-[340px] h-[500px] rounded-xl relative    ">
+      <div className="w-[340px] hover:cursor-pointer h-[500px] rounded-xl relative    ">
         <div className="">
           <img
             src="images/image5.jpg"
             alt=""
-            className="w-[340px] h-[500px] object-cover rounded-xl bg-cover bg-no-repeat "
+            className="w-[340px] brightness-50 h-[500px] object-cover rounded-xl bg-cover bg-no-repeat "
             />
           <div className="">
             <p className="w-[310px] h-[107px] left-[19px] absolute top-[308px]  text-white  font-semibold text-2xl">
@@ -327,13 +328,13 @@ export default function Container_3() {
 
 
               <div className="mt-[10px] flex items-center gap-[10px] ml-[20px]">
-  <button className="w-[232px] h-[55px] rounded-xl bg-[#E8E9FF]">
+  <button className="w-[232px] hover:cursor-pointer h-[55px] rounded-xl bg-[#E8E9FF]">
     <span className="text-lg text-[#1C1442] font-semibold flex justify-center items-center h-full">
       View
     </span>
   </button>
 
-  <button className="w-[60px] h-[55px] rounded-xl bg-[#E8E9FF] flex justify-center items-center">
+  <button className="w-[60px] hover:cursor-pointer h-[55px] rounded-xl bg-[#E8E9FF] flex justify-center items-center">
     <span className="text-[#1C1442] font-semibold text-4xl leading-none">
       ···
     </span>
