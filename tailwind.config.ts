@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -13,6 +14,9 @@ const config: Config = {
         bannerImg: "url('/image1.jpg')",
         blackOverlay:
           "linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%)",
+      },
+      fontFamily: {
+        urbanist: ['Urbanist', 'sans-serif'],
       },
     },
   },
