@@ -12,8 +12,13 @@ export default function Container_3() {
             />
           <div className="w-[302px] h-[107px]">
             <p className="left-[19px] absolute top-[308px]  text-white  font-semibold text-2xl">
-            <div className="bg-red-500 absolute bottom-[420px] left-[219px] rounded-[5px] w-[62px] h-[26px]  ">
-            <img src="/images/eye.png" alt="" />
+            <div>
+            <div className="bg-white absolute flex justify-center items-center bottom-[450px] left-[198px] rounded-[5px] w-[62px] h-[26px]  gap-1">
+            <img src="/images/eye1.png" alt="eye" className="h-[16px] w-[16px]"  /> <p className="text-[#1C1442] text-xs">428</p>
+            </div>
+            <div className="w-[36px] absolute h-[26px] left-[265px] rounded-[5px] gap-[5px] bottom-[450px] bg-white flex justify-center items-center">
+              <img src="/images/status-up copy.png" alt="" className="h-[16px] w-[16px] text-[#1C1442]" />
+            </div>
             </div>
               How 7 line code turned into $36 Billion Empire
               <div className="flex  gap-[10px]">
@@ -38,7 +43,7 @@ export default function Container_3() {
         </div>
       </div>
 
-      <div className="w-[340px] h-[500px] rounded-xl relative    ">
+      <div className="w-[340px] h-[500px] rounded-xl relative">
         <div className="">
           <img
             src="images/image2.jpg"
@@ -46,7 +51,16 @@ export default function Container_3() {
             className="w-[340px] h-[500px] object-cover rounded-xl  bg-no-repeat "
             />
           <div className="">
-            <p className="w-[302px] h-[107px] left-[19px] absolute top-[308px]  text-white  font-semibold text-2xl">Chez pierre restaurant in Monte Carlo by Vuidafieri
+            <p className="w-[302px] h-[107px] left-[19px] absolute top-[308px]  text-white  font-semibold text-2xl">
+            <div>
+            <div className="bg-white absolute flex justify-center items-center bottom-[380px] left-[198px] rounded-[5px] w-[62px] h-[26px]  gap-1">
+            <img src="/images/eye1.png" alt="eye" className="h-[16px] w-[16px]"  /> <p className="text-[#1C1442] text-xs">428</p>
+            </div>
+            <div className="w-[36px] absolute h-[26px] left-[265px] rounded-[5px] gap-[5px] bottom-[380px] bg-white flex justify-center items-center">
+              <img src="/images/status-up copy.png" alt="" className="h-[16px] w-[16px] text-[#1C1442]" />
+            </div>
+            </div>
+              Chez pierre restaurant in Monte Carlo by Vuidafieri
               <div className="flex  gap-[10px]">
             <p className="text-base mt-[17px] font-extrabold ">BUSINESS · <span className="text-[#A0A3BD] text-sm font-semibold">20 Sep 2022</span> </p>
             <button className="w-[108px] h-[40px] mt-1  bg-[#DAF1FB] rounded-md"><span className="font-semibold text-base flex justify-center items-center text-[#58A4FF]">Created</span></button>
