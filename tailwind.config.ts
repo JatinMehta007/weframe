@@ -10,7 +10,7 @@ const config: Config = {
     
     extend: {
       backgroundImage: {
-        bannerImg: "url('/images/image1.jpg')",
+        bannerImg: "url('/image1.jpg')",
         blackOverlay:
           "linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%)",
       },
