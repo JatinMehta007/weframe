@@ -6,11 +6,6 @@ import Sidebar from "../components/sidebar";
 
 export default function Home() {
   return (
-   
-//     <div className="grid grid-cols-[100px_1fr] md:grid-cols-[227px_1fr]">
-//   <div className="bg-gray-300">Sidebar</div>
-//   <div className="bg-gray-100">Content</div>
-// </div>
     <main id="main" className=" bg-zinc-100 md:w-[1623px] w-[500px] ">
       <div className="grid md:grid-cols-[297px_1fr] grid-cols-[100px_1fr]  gap-1">
       
